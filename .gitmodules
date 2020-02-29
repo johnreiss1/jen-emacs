@@ -1,0 +1,9 @@
+[submodule ".emacs.d/lisp/lsp-haskell"]
+	path = .emacs.d/lisp/lsp-haskell
+	url = https://github.com/emacs-lsp/lsp-haskell
+[submodule ".emacs.d/lisp/lsp-mode"]
+	path = .emacs.d/lisp/lsp-mode
+	url = https://github.com/emacs-lsp/lsp-mode
+[submodule ".emacs.d/lisp/lsp-ui"]
+	path = .emacs.d/lisp/lsp-ui
+	url = https://github.com/emacs-lsp/lsp-ui
