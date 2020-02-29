@@ -86,11 +86,6 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
 (define-key interactive-haskell-mode-map (kbd "M-.") 'haskell-mode-goto-loc)
 (define-key interactive-haskell-mode-map (kbd "C-c C-t") 'haskell-mode-show-type-at)
 
-(require 'hs-lint)
-(defun my-haskell-mode-hook ()
-    (local-set-key (kbd "C-x C-,") 'hs-lint))
-(add-hook 'haskell-mode-hook 'my-haskell-mode-hook)
-
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
 (add-hook 'after-init-hook 'global-company-mode)
